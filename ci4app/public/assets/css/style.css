@@ -2,6 +2,10 @@
     width: 70px;
 }
 
+.dsampul {
+    width: 170px;
+}
+
 .table > tbody > tr > * {
     vertical-align: middle;
 }
