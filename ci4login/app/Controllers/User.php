@@ -15,4 +15,7 @@ class User extends BaseController
         $data['title'] = 'User Detail';
         return view('user/profile', $data);
     }
+
+
+    // Oke
 }
