@@ -48,7 +48,7 @@
                         <img src="<?= base_url(); ?>/dist/img/profiles/<?= user()->user_image; ?>" class="img-circle elevation-2" alt="User Image">
                     </div>
                     <div class="info">
-                        <a href="" class="d-block"><?= user()->username; ?></a>
+                        <a href="<?= base_url('user'); ?>" class="d-block"><?= user()->fullname ? user()->fullname : user()->username; ?></a>
                     </div>
                 </div>
                 <!-- Sidebar Menu -->
